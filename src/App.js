@@ -14,6 +14,7 @@ const App = () => {
     searchMovies("Batman");
   }, []);
 
+  
 //   API
   
   const searchMovies = async (title) => {
