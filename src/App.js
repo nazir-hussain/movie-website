@@ -14,7 +14,6 @@ const App = () => {
     searchMovies("Batman");
   }, []);
 
-  
 //   API
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
