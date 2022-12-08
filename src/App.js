@@ -20,7 +20,6 @@ const App = () => {
     setMovies(data.Search);
   };
 
-  
   return (
     <div className="app">
       <h1>MovieLand</h1>
